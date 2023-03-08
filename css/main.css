@@ -1,0 +1,328 @@
+.bg-dark {
+  background-color: black !important; }
+
+.logo {
+  height: 60px; }
+
+.title {
+  color: #039e03;
+  font-size: 30px; }
+
+.btn {
+  color: #039e03; }
+  .btn a {
+    color: #039e03; }
+  .btn .--outline-warning {
+    --bs-btn-border-color:rgb(3, 158, 3); }
+
+.text-warning {
+  color: #039e03; }
+
+.nav-link {
+  color: #039e03; }
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+  color: #039e03; }
+
+.btn a {
+  color: #039e03; }
+
+.btn-outline-warning {
+  --bs-btn-border-color:rgb(3, 158, 3); }
+
+footer {
+  background-color: black;
+  padding: 30px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer .footer__texto {
+    color: white;
+    font-size: 10px; }
+
+body {
+  background-color: #1d1d1d; }
+
+main {
+  font-family: 'PT Sans', sans-serif;
+  width: 100%; }
+
+#main__bienvenida {
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  #main__bienvenida .bienvenida {
+    font-size: 90px;
+    padding: 5px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #main__bienvenida .bienvenida h2 {
+      font-size: 60px;
+      padding: 5px;
+      height: 40px;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color, 2s; }
+      #main__bienvenida .bienvenida h2 :hover {
+        background: red;
+        width: 100%; }
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .container .contenedor-texto {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .container .contenedor-video {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .container .contenedor-noticia {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .container .contenedor-texto h2 {
+    font-size: 25px;
+    color: white; }
+
+#main_noticias .col-12 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #039e03;
+  padding: 10px;
+  background-color: #2b2b2b; }
+
+#main__texto {
+  background-color: #2b2b2b;
+  padding: 40px;
+  height: 500px; }
+  #main__texto h2 {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px; }
+  #main__texto .boton__comenza {
+    font-size: 40px;
+    padding: 70px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.ayuda-RedesSociales a {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .ayuda-RedesSociales a img {
+    height: 80px;
+    width: 90px; }
+
+.ayuda-RedesSociales ul {
+  text-align: center;
+  padding-top: 30px; }
+  .ayuda-RedesSociales ul li {
+    padding: 20px;
+    display: inline-block; }
+    .ayuda-RedesSociales ul li img {
+      height: 70px;
+      width: 90; }
+
+.titulo-celulares h2 {
+  margin: 30px;
+  padding: 20px;
+  padding-left: 40px;
+  color: white;
+  border-bottom: 1px solid white; }
+
+.filtro {
+  color: white;
+  margin: 30px;
+  padding: 10px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .filtro h3 {
+    font-size: 20px;
+    border-bottom: 1px solid white; }
+  .filtro .opciones {
+    padding-left: 10px; }
+
+#productos {
+  margin-top: 20px; }
+  #productos h2 {
+    font-size: 40px;
+    padding: 50px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #productos .contenedor-productos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    padding: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px; }
+    #productos .contenedor-productos .tarjeta-producto {
+      padding: 30px;
+      border: 1px solid black;
+      /*borde para la tarjeta7*/
+      border-radius: 4px;
+      /*borde redondeado*/
+      padding: 20px;
+      /*espacio entre el contenedor y el contenido*/
+      width: 240px;
+      /*ancho*/
+      height: 450px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      background-color: #3b3b3b;
+      margin: 5px; }
+      #productos .contenedor-productos .tarjeta-producto .tarjeta-producto-imagen {
+        padding: 10px;
+        height: 200px;
+        border-radius: 8px; }
+      #productos .contenedor-productos .tarjeta-producto .tarjeta-producto-precio {
+        font-size: 20px;
+        padding: 9px;
+        padding-right: 100px;
+        color: white; }
+      #productos .contenedor-productos .tarjeta-producto .tarjeta-producto-titulo {
+        color: white;
+        padding-left: 15px;
+        padding-bottom: 20px; }
+      #productos .contenedor-productos .tarjeta-producto .tarjeta-producto-boton {
+        font-size: 25px; }
+
+#Formulario-IniciarSesion {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #Formulario-IniciarSesion h2 {
+    font-size: 40px;
+    color: white; }
+  #Formulario-IniciarSesion .IniciarSesion {
+    padding: 30px;
+    border: 1px solid black;
+    /*borde para la tarjeta7*/
+    border-radius: 4px;
+    /*borde redondeado*/
+    width: 500px;
+    /*ancho*/
+    height: 250px;
+    background-color: #3b3b3b;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    #Formulario-IniciarSesion .IniciarSesion h3 {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  #Formulario-IniciarSesion .IniciarSesion-datos {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #Formulario-IniciarSesion .IniciarSesion-boton {
+    padding-bottom: 15px;
+    padding-top: 15px; }
+    #Formulario-IniciarSesion .IniciarSesion-boton .Boton {
+      font-size: 20px; }
+  #Formulario-IniciarSesion .IniciarSesion p, #Formulario-IniciarSesion a {
+    color: white; }
+
+#ayuda {
+  padding: 30px; }
+  #ayuda h2 {
+    font-size: 50px;
+    padding-top: 60px;
+    color: white; }
+  #ayuda .ayuda-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 600px;
+    height: 215px;
+    background-color: #3b3b3b;
+    margin: 5px; }
+  #ayuda .ayuda-datos {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #ayuda .ayuda-formulario-inquietud {
+    padding-bottom: 40px; }
+  #ayuda .ayuda-RedesSociales {
+    border: 1px solid #039e03; }
+    #ayuda .ayuda-RedesSociales a {
+      margin: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #ayuda .ayuda-RedesSociales a img {
+        height: 80px;
+        width: 90px; }
+    #ayuda .ayuda-RedesSociales .ayuda-RedesSociales ul {
+      text-align: center;
+      padding-top: 30px; }
+      #ayuda .ayuda-RedesSociales .ayuda-RedesSociales ul li {
+        padding: 20px;
+        display: inline-block; }
+        #ayuda .ayuda-RedesSociales .ayuda-RedesSociales ul li img {
+          height: 40px;
+          width: 50; }
+    #ayuda .ayuda-RedesSociales .contenedor-redes a img {
+      height: 10px; }
+
+#SobreNos {
+  height: 100%;
+  width: 100%; }
+  #SobreNos h2 {
+    font-size: 50px;
+    color: white;
+    padding: 80px; }
+  #SobreNos p {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 100px;
+    padding-left: 40px; }

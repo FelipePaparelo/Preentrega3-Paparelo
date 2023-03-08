@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+main{
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+}
+
+
+#main__bienvenida{
+
+    height: 500px;
+    text-align: center;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/fondo.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    .bienvenida{
+        font-size: 90px;
+        padding: 5px;
+        height: 40px;
+        color: white;
+        display: flex ;
+        justify-content: center;
+        align-items: center;  
+        h2{
+            font-size: 60px;
+            padding: 5px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            display: flex ;
+            justify-content: center;
+            align-items: center;   
+            transition: background-color, 2s;
+            :hover{
+                background: red;
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    .contenedor-texto{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    } 
+    
+    .contenedor-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+    
+    .contenedor-noticia{
+        font-size: 25px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contenedor-texto h2{
+        font-size: 25px;
+        color: white;
+    }  
+}
+
+
+#main_noticias .col-12{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(3, 158, 3) ;
+    padding: 10px;
+    background-color:rgb(43, 43, 43);
+}
+
+
+#main__texto{
+    background-color:rgb(43, 43, 43);;
+    padding: 40px;
+    height: 500px;
+    h2{
+        color: white;
+        text-align: center;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+    }
+    .boton__comenza{
+        font-size: 40px;
+        padding: 70px;
+        color: white;
+        text-align: center;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.ayuda-RedesSociales{
+    a{
+        margin: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 80px;
+            width: 90px;
+        }
+    }
+    ul{
+        text-align: center;
+        padding-top: 30px;
+        li{
+            padding: 20px;
+            display: inline-block;
+            img{
+                height: 70px;
+                width: 90;
+            }
+        
+        }
+    }
+
+}
+

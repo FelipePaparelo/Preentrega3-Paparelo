@@ -1,0 +1,40 @@
+.bg-dark {
+    background-color: black !important;
+}
+.logo{
+    height: 60px;
+}
+.title{
+    color: rgb(3, 158, 3);
+    font-size: 30px;
+    
+}
+
+.btn{
+    color: rgb(3, 158, 3);
+    a{
+        color: rgb(3, 158, 3);
+    }
+    
+    .--outline-warning{
+        --bs-btn-border-color:rgb(3, 158, 3);
+    }
+}
+
+.text-warning{
+    color: rgb(3, 158, 3);
+}
+.nav-link{
+    color: rgb(3, 158, 3) ;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(3, 158, 3)
+}
+
+.btn a{
+    color: rgb(3, 158, 3);
+}
+
+.btn-outline-warning{
+    --bs-btn-border-color:rgb(3, 158, 3);
+}
