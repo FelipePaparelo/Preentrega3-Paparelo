@@ -38,3 +38,9 @@
 .btn-outline-warning{
     --bs-btn-border-color:rgb(3, 158, 3);
 }
+
+@media (max-width:576px){
+    .navegador{
+     padding-top: 30px;
+    }
+}
