@@ -39,8 +39,8 @@
     --bs-btn-border-color:rgb(3, 158, 3);
 }
 
-@media (max-width:576px){
-    .navegador{
-     padding-top: 30px;
+.navegador{
+    @include mobile{
+        padding-top: 30px;  
     }
 }

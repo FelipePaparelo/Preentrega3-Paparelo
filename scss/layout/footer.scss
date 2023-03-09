@@ -9,10 +9,11 @@ footer{
         color: white;
         font-size: 10px;
     }
-
+    @include mobile{
+        background-color: black;
+        padding: 30px;
+        height: 150px;
+        display: flex;
+    }
 }
 
-// footer .footer__texto{
-//     color: white;
-//     font-size: 10px;
-// }

@@ -1,9 +1,18 @@
+
+//partials
+@import "./partials/media.scss";
+
 //layout
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
+
+
+//pages
 @import "./pages/inicio.scss";
+@import "./pages/contacto.scss";
 @import "./pages/celulares.scss";
 @import "./pages/iniciar-sesion.scss";
-@import "./pages/contacto.scss";
 @import "./pages/sobre-nosotros.scss";
-@import"./pages/media.scss";
+
+
+
