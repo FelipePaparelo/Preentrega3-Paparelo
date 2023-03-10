@@ -5,7 +5,7 @@
   height: 60px; }
 
 .title {
-  color: black;
+  color: #039e03;
   font-size: 30px; }
 
 .btn {
@@ -136,10 +136,10 @@ main {
   padding-bottom: 10px;
   border: 1px solid #039e03;
   padding: 10px;
-  background-color: #2b2b2b; }
+  background-color: #3b3b3b; }
 
 #main__texto {
-  background-color: #2b2b2b;
+  background-color: #3b3b3b;
   padding: 40px;
   height: 500px; }
   #main__texto h2 {

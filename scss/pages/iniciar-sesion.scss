@@ -15,7 +15,7 @@
         border-radius: 4px; /*borde redondeado*/
         width: 500px; /*ancho*/
         height: 250px;
-        background-color: rgb(59, 59, 59);
+        background-color: $color-fondo-formulario;
         margin: 5px;
         display: flex;
         flex-direction: column;
@@ -42,7 +42,7 @@
         }
     }
     .IniciarSesion p, a{
-        color: white;
+        color: $color-letras;
     }
 }
 

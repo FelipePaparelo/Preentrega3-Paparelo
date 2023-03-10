@@ -20,7 +20,7 @@
         border-radius: 4px; 
         width: 600px; 
         height: 215px;
-        background-color: rgb(59, 59, 59);
+        background-color: $color-fondo-formulario;
         margin: 5px;
         @include mobile{
             padding: 20px;
