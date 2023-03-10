@@ -7,7 +7,7 @@
     justify-content: center;
     h2{
         font-size: 40px;
-        color: white;
+        color: $color-letras;
     }
     .IniciarSesion{
         padding: 30px;
@@ -22,7 +22,7 @@
         align-items: center;
         justify-content: center;
         h3{
-            color: white;
+            color: $color-letras;
             display: flex;
             align-items: center;
             justify-content: center;

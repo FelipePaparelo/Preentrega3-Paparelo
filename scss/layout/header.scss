@@ -1,42 +1,42 @@
 .bg-dark {
-    background-color: black !important;
+    background-color: $color-fondo-footer-header !important;
 }
 .logo{
     height: 60px;
 }
 .title{
-    color: rgb(3, 158, 3);
+    color: $color-fondo-footer-header;
     font-size: 30px;
     
 }
 
 .btn{
-    color: rgb(3, 158, 3);
+    color: $color-nav-header;
     a{
-        color: rgb(3, 158, 3);
+        color: $color-nav-header;
     }
     
     .--outline-warning{
-        --bs-btn-border-color:rgb(3, 158, 3);
+        --bs-btn-border-color:$color-nav-header;
     }
 }
 
 .text-warning{
-    color: rgb(3, 158, 3);
+    color: $color-nav-header;
 }
 .nav-link{
-    color: rgb(3, 158, 3) ;
+    color: $color-nav-header ;
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: rgb(3, 158, 3)
+    color: $color-nav-header
 }
 
 .btn a{
-    color: rgb(3, 158, 3);
+    color: $color-nav-header;
 }
 
 .btn-outline-warning{
-    --bs-btn-border-color:rgb(3, 158, 3);
+    --bs-btn-border-color:$color-nav-header;
 }
 
 .navegador{

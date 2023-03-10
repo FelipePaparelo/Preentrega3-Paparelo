@@ -5,7 +5,7 @@
   height: 60px; }
 
 .title {
-  color: #039e03;
+  color: black;
   font-size: 30px; }
 
 .btn {
@@ -13,7 +13,7 @@
   .btn a {
     color: #039e03; }
   .btn .--outline-warning {
-    --bs-btn-border-color:rgb(3, 158, 3); }
+    --bs-btn-border-color:$color-nav-header; }
 
 .text-warning {
   color: #039e03; }
@@ -28,7 +28,7 @@
   color: #039e03; }
 
 .btn-outline-warning {
-  --bs-btn-border-color:rgb(3, 158, 3); }
+  --bs-btn-border-color:$color-nav-header; }
 
 @media screen and (max-width: 576px) {
   .navegador {
@@ -72,7 +72,6 @@ main {
     font-size: 90px;
     padding: 5px;
     height: 40px;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center; }
