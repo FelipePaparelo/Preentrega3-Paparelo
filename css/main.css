@@ -79,7 +79,7 @@ main {
     #main__bienvenida {
       width: 101%; } }
 
-.bienvenida h2 {
+.bienvenida h1 {
   font-size: 60px;
   padding: 5px;
   height: 40px;
@@ -90,7 +90,7 @@ main {
   align-items: center;
   transition: background-color, 2s; }
   @media screen and (max-width: 576px) {
-    .bienvenida h2 {
+    .bienvenida h1 {
       background-color: none;
       font-size: 30px;
       padding: 5px;
@@ -100,7 +100,7 @@ main {
       justify-content: center;
       align-items: center; } }
 
-.bienvenida h2:hover {
+.bienvenida h1:hover {
   background: red;
   width: 100%; }
 
