@@ -1,16 +1,16 @@
 footer{
-    background-color: black;
+    background-color: $color-fondo-footer-header;
     padding: 30px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     .footer__texto{
-        color: white;
+        color: $color-letras;
         font-size: 10px;
     }
     @include mobile{
-        background-color: black;
+        background-color: $color-fondo-footer-header;
         padding: 30px;
         height: 150px;
         display: flex;

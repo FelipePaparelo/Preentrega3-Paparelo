@@ -7,7 +7,7 @@
     justify-content: center;
     h2{
         font-size: 40px;
-        color: white;
+        color: $color-letras;
     }
     .IniciarSesion{
         padding: 30px;
@@ -15,14 +15,14 @@
         border-radius: 4px; /*borde redondeado*/
         width: 500px; /*ancho*/
         height: 250px;
-        background-color: rgb(59, 59, 59);
+        background-color: $color-fondo-formulario;
         margin: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         h3{
-            color: white;
+            color: $color-letras;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -42,7 +42,7 @@
         }
     }
     .IniciarSesion p, a{
-        color: white;
+        color: $color-letras;
     }
 }
 

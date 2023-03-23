@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(29, 29, 29);
+    background-color: $color-fondo;
 }
 
 
@@ -25,7 +25,6 @@ main{
         font-size: 90px;
         padding: 5px;
         height: 40px;
-        color: white;
         display: flex ;
         justify-content: center;
         align-items: center;  
@@ -42,7 +41,7 @@ main{
     padding: 5px;
     height: 40px;
     background-color: black;
-    color: white;
+    color: $color-letras;
     display: flex ;
     justify-content: center;
     align-items: center;   
@@ -52,7 +51,7 @@ main{
         font-size: 30px;
         padding: 5px;
         height: 30px;
-        color: white;
+        color: $color-letras;
         display: flex ;
         justify-content: center;
         align-items: center; 
@@ -60,7 +59,7 @@ main{
 }
 
 .bienvenida h2:hover{
-    background: red;
+    background: $color-animacion-bienvenida;
     width: 100%;
 }
 
@@ -86,7 +85,7 @@ main{
     
     .contenedor-noticia{
         font-size: 25px;
-        color: white;
+        color: $color-letras;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -95,7 +94,7 @@ main{
     
     .contenedor-texto h2{
         font-size: 25px;
-        color: white;
+        color: $color-letras;
         @include mobile{
             font-size: 30px;
         }
@@ -108,16 +107,16 @@ main{
     padding-bottom: 10px;
     border: 1px solid rgb(3, 158, 3) ;
     padding: 10px;
-    background-color:rgb(43, 43, 43);
+    background-color:$color-fondo2;
 }
 
 
 #main__texto{
-    background-color:rgb(43, 43, 43);;
+    background-color:$color-fondo2;
     padding: 40px;
     height: 500px;
     h2{
-        color: white;
+        color: $color-letras;
         text-align: center;
         display: flex ;
         justify-content: center;
