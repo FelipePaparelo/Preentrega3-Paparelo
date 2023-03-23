@@ -36,7 +36,7 @@ main{
     
 }
 
-.bienvenida h2{
+.bienvenida h1{
     font-size: 60px;
     padding: 5px;
     height: 40px;
@@ -58,7 +58,7 @@ main{
     }
 }
 
-.bienvenida h2:hover{
+.bienvenida h1:hover{
     background: $color-animacion-bienvenida;
     width: 100%;
 }
