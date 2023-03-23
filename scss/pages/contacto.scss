@@ -1,11 +1,21 @@
 #ayuda{
     padding: 30px;
-    h2{
+    h1{
         font-size: 50px;
         padding-top: 60px;
         color: $color-letras;
         @include mobile{
-            font-size: 40px;
+            font-size: 35px;
+            padding-top: 60px;
+            color: $color-letras;
+        }
+    }
+    h2{
+        font-size: 40px;
+        padding-top: 60px;
+        color: $color-letras;
+        @include mobile{
+            font-size: 35px;
             padding-top: 60px;
             color: $color-letras;
         }
@@ -16,12 +26,13 @@
         align-items: center;
         justify-content: center;
         padding: 20px;
+        margin: 20px;
+        margin-top: 40px;
         border: 1px solid black; 
         border-radius: 4px; 
         width: 600px; 
         height: 215px;
         background-color: $color-fondo-formulario;
-        margin: 5px;
         @include mobile{
             padding: 20px;
             border: 1px solid black;

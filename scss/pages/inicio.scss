@@ -37,7 +37,7 @@ main{
 }
 
 .bienvenida h1{
-    font-size: 60px;
+    font-size: 50px;
     padding: 5px;
     height: 40px;
     background-color: black;
@@ -48,7 +48,7 @@ main{
     transition: background-color, 2s;
     @include mobile{
         background-color: none;
-        font-size: 30px;
+        font-size: 25px;
         padding: 5px;
         height: 30px;
         color: $color-letras;
@@ -135,7 +135,7 @@ main{
         justify-content: center;
         align-items: center;
         @include mobile{
-            font-size: 40px;
+            font-size: 35px;
             padding: 40px;
         }
     }
